@@ -1,0 +1,12 @@
+---
+title: 'Risk Parameters'
+description: 'Protection Metrics and Quantitative Filters'
+---
+
+Capital execution is strictly bound to rigorous risk management parameters, hard-coded at the root level within the TrustAlgo Router.
+
+* **Maximum Leverage:** 2.0x (Structural hard limit, cannot be overridden during execution).
+* **Directional Filters:** Implementation of ADX (Average Directional Index) filters to inhibit market entries during ranging phases or in the absence of statistical momentum.
+* **Mechanical Stop Loss:** Every single tranche of capital routed to the market features a contextual, hard-coded Stop Loss order upon entry. The system does not allow directional exposure without a pre-calculated invalidation level.
+
+Capital preservation is the primary directive of the protocol.
