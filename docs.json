@@ -1,5 +1,6 @@
 {
   "name": "TrustAlgo",
+  "theme": "mint",
   "logo": {
     "dark": "/logo/dark.svg",
     "light": "/logo/light.svg"
