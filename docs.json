@@ -8,23 +8,6 @@
   "colors": {
     "primary": "#FFFFFF",
     "light": "#FFFFFF",
-    "dark": "#000000",
-    "anchors": "#808080"
-  },
-  "topbarCtaButton": {
-    "name": "TrustAlgo.co",
-    "url": "https://trustalgo.co"
-  },
-  "navigation": [
-    {
-      "group": "Protocol Documentation",
-      "pages": [
-        "introduction",
-        "architecture-security",
-        "fee-schedule",
-        "deployment-guide",
-        "risk-parameters"
-      ]
-    }
-  ]
+    "dark": "#000000"
+  }
 }
