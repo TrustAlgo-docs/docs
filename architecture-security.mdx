@@ -1,0 +1,14 @@
+---
+title: 'Architecture & Security'
+description: 'Infrastruttura Non-Custodial e Motori di Esecuzione'
+---
+
+### 100% Non-Custodial
+Il protocollo è progettato attorno a un vincolo matematico di sicurezza. Operando tramite le API di Hyperliquid, il sistema richiede esclusivamente i permessi di **"Read"** (lettura dati) ed **"Execute"** (esecuzione ordini). 
+
+La funzione "Withdraw" (prelievo) è matematicamente disabilitata a livello di exchange, rendendo impossibile per i server TrustAlgo, o per chiunque vi abbia accesso, movimentare i fondi al di fuori del wallet originale.
+
+### Execution Engines
+L'architettura si divide in due layer operativi:
+* **Master Bots:** Unità di analisi isolate che processano il flusso dati per BTC, ETH e SOL in ambienti separati e indipendenti.
+* **Router:** Il nodo di smistamento centrale che riceve i segnali dai Master Bots ed esegue il routing simultaneo degli ordini sul mercato tramite connessione WebSocket a bassissima latenza.
