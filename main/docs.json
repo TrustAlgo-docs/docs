@@ -1,0 +1,61 @@
+{
+  "theme": "mint",
+  "name": "TrustAlgo",
+  "colors": {
+    "primary": "#FFFFFF",
+    "light": "#FFFFFF",
+    "dark": "#000000"
+  },
+  "logo": {
+    "light": "/logo/light.svg",
+    "dark": "/logo/dark.svg"
+  },
+  "favicon": "/favicon.svg",
+  "navbar": {
+    "links": [
+      {
+        "href": "mailto:support@mintlify.com",
+        "label": "Support"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Dashboard",
+      "href": "https://app.mintlify.com"
+    }
+  },
+  "footer": {
+    "socials": {
+      "x": "https://x.com/mintlify",
+      "github": "https://github.com/mintlify",
+      "linkedin": "https://linkedin.com/company/mintlify"
+    }
+  },
+  "contextual": {
+    "options": [
+      "copy",
+      "view",
+      "chatgpt",
+      "claude",
+      "perplexity",
+      "mcp",
+      "cursor",
+      "vscode"
+    ],
+    "display": "header"
+  },
+  "navigation": {
+    "groups": [
+      {
+        "group": "Protocol Documentation",
+        "pages": [
+          "introduction",
+          "architecture-security",
+          "fee-schedule",
+          "deployment-guide",
+          "risk-parameters"
+        ]
+      }
+    ]
+  }
+}
