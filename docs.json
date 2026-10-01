@@ -1,29 +1,28 @@
 {
-  "name": "TrustAlgo",
+  "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "logo": {
-    "dark": "/logo/dark.svg",
-    "light": "/logo/light.svg"
-  },
+  "name": "TrustAlgo",
   "colors": {
     "primary": "#FFFFFF",
     "light": "#FFFFFF",
     "dark": "#000000"
   },
-  "topbarCtaButton": {
-    "name": "TrustAlgo.co",
-    "url": "https://trustalgo.co"
+  "logo": {
+    "dark": "/logo/dark.svg",
+    "light": "/logo/light.svg"
   },
-  "navigation": [
-    {
-      "group": "Protocol Documentation",
-      "pages": [
-        "introduction",
-        "architecture-security",
-        "fee-schedule",
-        "deployment-guide",
-        "risk-parameters"
-      ]
-    }
-  ]
+  "navigation": {
+    "groups": [
+      {
+        "group": "Protocol Documentation",
+        "pages": [
+          "introduction",
+          "architecture-security",
+          "fee-schedule",
+          "deployment-guide",
+          "risk-parameters"
+        ]
+      }
+    ]
+  }
 }
