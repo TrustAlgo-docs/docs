@@ -10,7 +10,7 @@
   "logo": {
     "dark": "/logo/logo.png",
     "light": "/logo/logo.png",
-    "height": "40"
+    "height": "150"
   },
   "navigation": {
     "groups": [
